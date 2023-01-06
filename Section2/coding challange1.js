@@ -6,7 +6,7 @@ const heightJohn = 1.95;
 
 const bmiMark = weightMark / heightMark ** 2 ;
 const bmiJohn = weightJohn / (heightJohn * heightJohn);
-const markHigherBMI = bmiMark > bmiMark 
+const markHigherBMI = bmiMark > bmiJohn;
 
 console.log(`${bmiMark}
 ${bmiJohn}

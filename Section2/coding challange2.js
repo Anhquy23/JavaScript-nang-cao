@@ -7,9 +7,9 @@ const bmiMark = weightMark / heightMark ** 2 ;
 const bmiJohn = weightJohn / (heightJohn * heightJohn);
 
 const mark = bmiJohn.toFixed(2);
-const john = bmiJohn.toFixed(2);
+const john = bmiMark.toFixed(2);
 
-if(bmiMark > bmiMark){
+if(bmiMark > bmiJohn){
     console.log(`Chỉ số BMI của Mark (${mark}) cao hơn của John (${john}) !`)
 }else{
     console.log(`Chỉ số BMI của John (${john}) cao hơn của Mark (${mark}) !`)
